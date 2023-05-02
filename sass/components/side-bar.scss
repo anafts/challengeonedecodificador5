@@ -1,0 +1,36 @@
+@use "../abstracts/variables" as *;
+
+.side-bar { 
+
+    background-color: $color-white;
+    height: 94rem;
+    width: 40rem;
+    border-radius: 3.2rem;
+    text-align: center;
+    padding: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+
+    &-img { 
+        margin-top: 14rem;
+    }
+
+    &-title {
+        font-size: 2.4rem;
+        color: $color-gray-500;
+    }
+
+    &-info {
+        font-size: 1.6rem;
+        font-weight: 400 normal;
+        color: $color-gray-400;
+    }
+
+    &-btn {
+        display: none;
+    }
+}

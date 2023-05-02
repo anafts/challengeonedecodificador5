@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+
+// typography
+
+.principal-title {
+    font-size: 3.2rem;
+    font-weight: 400 normal;
+    color: $color-blue-500;
+}
+
