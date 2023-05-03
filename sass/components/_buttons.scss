@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as *;
+
+.principal-btn {
+
+    padding: 2rem 8rem;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    background-color: $color-blue-500;
+    border: none;
+    color: $color-white;
+    flex: 1;
+
+    &--light {
+        background-color: $color-blue-200;
+        color: $color-blue-500;
+        border: .1rem solid $color-blue-500;
+        
+    }
+}

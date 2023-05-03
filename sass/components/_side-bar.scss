@@ -3,7 +3,7 @@
 .side-bar { 
 
     background-color: $color-white;
-    height: 94rem;
+    height: 75rem;
     width: 40rem;
     border-radius: 3.2rem;
     text-align: center;
@@ -12,11 +12,11 @@
     flex-direction: column;
     gap: 2.5rem;
     position: absolute;
-    top: 2rem;
+    top: 4rem;
     right: 0;
 
     &-img { 
-        margin-top: 14rem;
+        margin-top: 8rem;
     }
 
     &-title {

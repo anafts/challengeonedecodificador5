@@ -2,4 +2,6 @@
 @use "./abstracts/variables";
 @use "./base/typography";
 @use "./components/side-bar";
+@use "./components/buttons";
 @use "./pages/home";
+@use "./responsive/breakpoints"; 

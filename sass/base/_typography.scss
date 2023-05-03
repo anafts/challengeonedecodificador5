@@ -2,9 +2,20 @@
 
 // typography
 
-.principal-title {
+.principal-text-area {
     font-size: 3.2rem;
     font-weight: 400 normal;
     color: $color-blue-500;
 }
 
+.principal-text-info {
+    font-size: 1.2rem;
+    color: $color-gray-400;
+    opacity: .8;
+    margin: 2rem 0;
+
+    &-img {
+        vertical-align: middle;
+        width: 1.3rem;
+    }
+}
