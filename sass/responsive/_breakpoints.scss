@@ -1,0 +1,35 @@
+@use "../abstracts/variables" as *; 
+
+
+@media(max-width: 768px) {
+
+    .main-content {
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0 0 8rem;
+    }
+
+    .principal {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .text-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .side-bar {
+
+        position: static;
+        width: 90%;
+        margin: 5rem auto;
+        height: 20rem;
+        
+        &-img {
+            display: none;
+        }
+    }
+}
