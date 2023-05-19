@@ -9,6 +9,14 @@
     box-sizing: inherit;
 }
 
+textarea {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    width: 65.5rem;
+    height: 50rem;
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;

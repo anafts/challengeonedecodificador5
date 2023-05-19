@@ -6,6 +6,14 @@
   box-sizing: inherit;
 }
 
+textarea {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  width: 65.5rem;
+  height: 50rem;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -118,14 +126,60 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+  textarea {
+    width: 100%;
+    height: 50rem;
+  }
   .side-bar {
     position: static;
-    width: 90%;
+    width: 100%;
     margin: 5rem auto;
     height: 20rem;
   }
   .side-bar-img {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .main-content {
+    width: 100%;
+  }
+  .logo {
+    margin: 0 0 8rem;
+  }
+  .principal {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  textarea {
+    width: 100%;
+    height: 50rem;
+  }
+  .side-bar {
+    position: static;
+    width: 100%;
+    margin: 5rem auto;
+    height: 20rem;
+  }
+  .side-bar-img {
+    display: none;
+  }
+  .side-bar-title {
+    font-size: 2rem;
+    color: #343A40;
+  }
+  .side-bar-info {
+    font-size: 1.4rem;
+    font-weight: 400 normal;
+    color: #495057;
   }
 }
 
